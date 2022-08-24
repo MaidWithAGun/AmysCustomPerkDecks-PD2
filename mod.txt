@@ -1,10 +1,12 @@
 {
-	"name" : "Maid's Custom Perk Decks [Master Release]",
-	"description" : "Adds three new custom perk decks, each of which with their own advantages and disadvantages. [Includes the new yet to be released Hotline Miami Community Content]",
+	"name" : "Maid's Custom Perk Decks [Version 1.0.3]",
+	"description" : "Adds three new custom perk decks, each of which with their own advantages and disadvantages. 
+	[Includes Community Addition #1, Hotline Miami.]",
 	"author" : "MaidWithAGun",
 	"contact" : "Support is available through discord or steam",
 	"blt_version" : 2,
-	"version" : "1.0.2",
+	"version" : "3rd Revision [V103]",
+	"color" : "1 0.7137 0.7569",
 	"hooks" : [	
 	{ 	
 		"hook_id" : "lib/tweak_data/skilltreetweakdata",
