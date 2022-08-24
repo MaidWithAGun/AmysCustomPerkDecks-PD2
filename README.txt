@@ -2,6 +2,8 @@ Hi. I recommend you read this before you do anything with this mod.
 
 A few basics |
 
+Always, ALWAYS make sure you go the respective version release [If you are reading this on github] by clicking Release V.1.0.2 off to the right, to make sure you get the actual full source code. Otherwise it could break the hell out of your game by having improperly placed files.
+
 These modded perk decks will not be seen properly by people that do not have the mod installed.
 
 You should probably ask your session host [if you join a session that is not yours] if it's okay to use these, since they contain SEVERE in-game modifications that some hosts deem cheating. [You do not need to but it's still advised]
