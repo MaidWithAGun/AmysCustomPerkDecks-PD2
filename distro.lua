@@ -399,7 +399,103 @@ table.insert(self.specializations, {
 				name_id = "HM_NAME_PK9",
 				desc_id = "HM_DESC_PK9"}
 	})
-
+	
+-- Dodge Master	
+table.insert(self.specializations, { 
+			name_id = "DM_NAME",
+			desc_id = "DM_DESC",
+			{
+				upgrades = {		--1
+				"DM_Dodge",
+				"DM_Speed"
+				},
+				cost = 100,
+				icon_xy = {0, 2}, --0,2
+				name_id = "DM_NAME_PK1",
+				desc_id = "DM_DESC_PK1"},	
+				
+			{
+				upgrades = {		--2
+				"weapon_passive_headshot_damage_multiplier"
+				},
+				cost = 200,
+				icon_xy = {0, 0}, --0,6
+				name_id = "DM_NAME_PK2",
+				desc_id = "DM_DESC_PK2"},
+				
+			{
+				upgrades = {		--3
+				"DM_Elude"
+				},
+				cost = 400,
+				icon_xy = {0, 6}, --2,0
+				name_id = "DM_NAME_PK3",
+				desc_id = "DM_DESC_PK3"},
+				
+			{
+				upgrades = {		--4
+				"player_passive_loot_drop_multiplier",
+				"passive_player_xp_multiplier",
+				"player_passive_suspicion_bonus"
+				},
+				cost = 800,
+				icon_xy = {1, 1}, --0,6
+				name_id = "DM_NAME_PK4",
+				desc_id = "DM_DESC_PK4"},
+				
+			{
+				upgrades = {		--5
+				"DM_Evade",
+				},
+				cost = 1200,
+				icon_xy = {1, 1},  --0,2
+				name_id = "DM_NAME_PK5",
+				desc_id = "DM_DESC_PK5"},
+				
+			{
+				upgrades = {		--6
+				"DM_EP"
+				},
+				cost = 2400,
+				icon_xy = {1, 1}, --0,0
+				name_id = "DM_NAME_PK6",
+				desc_id = "DM_DESC_PK6"},
+				
+			{
+				upgrades = {		--7
+				"DM_SW"
+				},
+				cost = 4800,
+				icon_xy = {1, 1}, --1,1
+				name_id = "DM_NAME_PK7",
+				desc_id = "DM_DESC_PK7"},
+				
+			{
+				upgrades = {		--8,
+				"DM_SGDamage",
+				"DM_LMGDamage",
+				"DM_SMGDamage",
+				"DM_PDamage",
+				"DM_ARDamage"
+				},
+				cost = 6200,
+				icon_xy = {1, 1}, --1,1
+				name_id = "DM_NAME_PK8",
+				desc_id = "DM_DESC_PK8"},
+				
+			{
+				upgrades = {		--9
+				"DM_PistolReload",
+				"DM_LMGReload",
+				"DM_ARReload",	
+				"DM_ShotgunReload",
+				"DM_SMGReload"
+				},
+				cost = 9000,
+				icon_xy = {2, 0}, --0,5
+				name_id = "DM_NAME_PK9",
+				desc_id = "DM_DESC_PK9"}
+	})
 
 
 end
