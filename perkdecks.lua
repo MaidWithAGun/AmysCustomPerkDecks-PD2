@@ -39,6 +39,33 @@ data(self, tweak_data)
 		1.45
 	}
 
+	self.values.smg.damage_multiplier = {
+		1.05,
+		1.15,
+		1.45,
+		1.10
+	}
+
+	self.values.assault_rifle.damage_multiplier = {
+		1.05,
+		1.15,
+		1.45,
+		1.10
+	}
+
+	self.values.pistol.damage_multiplier = {
+		1.05,
+		1.15,
+		1.45,
+		1.10
+	}
+
+	self.values.player.pick_up_ammo_multiplier = {
+		1.35,
+		1.75,
+		2
+	}
+	
 	self.values.player.pick_up_ammo_multiplier = {
 		1.35,
 		1.75,
@@ -518,6 +545,113 @@ skills(self, tweak_data)
 			category = "player",
 			upgrade = "convert_enemies_max_minions",
 			value = 2}}
+		--Dodge Master
+	self.definitions.DM_Speed = {
+		category = "feature",
+		name_id = "menu_player_movement_speed_multiplier",
+		upgrade = {
+			category = "player",
+			upgrade = "movement_speed_multiplier",
+			value = 4}}
+	self.definitions.DM_EP = {
+		category = "feature",
+		name_id = "menu_player_tier_armor_multiplier",
+		upgrade = {
+			category = "player",
+			upgrade = "tier_armor_multiplier",
+			value = 2}}	
+	self.definitions.DM_Dodge = {
+		name_id = "menu_player_passive_dodge_chance",
+		category = "temporary",
+		upgrade = {
+			category = "player",
+			upgrade = "passive_dodge_chance",
+			value = 3}}	
+	self.definitions.DM_Evade = {
+		name_id = "menu_player_passive_dodge_chance",
+		category = "temporary",
+		upgrade = {
+			category = "player",
+			upgrade = "passive_dodge_chance",
+			value = 3}}
+	self.definitions.DM_SW = {
+		name_id = "menu_player_passive_dodge_chance",
+		category = "temporary",
+		upgrade = {
+			category = "player",
+			upgrade = "passive_dodge_chance",
+			value = 3}}
+	self.definitions.DM_SMGReload = {
+		category = "feature",
+		name_id = "menu_smg_reload_speed_multiplier",
+		upgrade = {
+			category = "smg",
+			upgrade = "reload_speed_multiplier",
+			value = 2}}
+	self.definitions.DM_ShotgunReload = {
+		category = "feature",
+		name_id = "menu_shotgun_reload_speed_multiplier",
+		upgrade = {
+			category = "shotgun",
+			upgrade = "reload_speed_multiplier",
+			value = 2}}
+	self.definitions.DM_ARReload = {
+		category = "feature",
+		name_id = "menu_assault_rifle_reload_speed_multiplier",
+		upgrade = {
+			category = "assault_rifle",
+			upgrade = "reload_speed_multiplier",
+			value = 2}}
+	self.definitions.DM_LMGReload = {
+		category = "feature",
+		name_id = "menu_lmg_reload_speed_multiplier",
+		upgrade = {
+			category = "lmg",
+			upgrade = "reload_speed_multiplier",
+			value = 2}}
+	self.definitions.DM_PistolReload = {
+		category = "feature",
+		name_id = "menu_pistol_reload_speed_multiplier",
+		upgrade = {
+			category = "pistol",
+			upgrade = "reload_speed_multiplier",
+			value = 2}}
+	self.definitions.DM_SGDamage = {
+		category = "feature",
+		name_id = "menu_player_shotgun_damage_multiplier",
+		upgrade = {
+			category = "shotgun",
+			upgrade = "damage_multiplier",
+			value = 4}}
+	self.definitions.DM_LMGDamage = {
+		category = "feature",
+		name_id = "menu_player_lmg_damage_multiplier",
+		upgrade = {
+			category = "lmg",
+			upgrade = "damage_multiplier",
+			value = 4}}
+	self.definitions.DM_SMGDamage = {
+		category = "feature",
+		name_id = "menu_player_smg_damage_multiplier",
+		upgrade = {
+			category = "smg",
+			upgrade = "damage_multiplier",
+			value = 4}}
+	self.definitions.DM_PDamage = {
+		category = "feature",
+		name_id = "menu_player_pistol_damage_multiplier",
+		upgrade = {
+			category = "pistol",
+			upgrade = "damage_multiplier",
+			value = 4}}
+	self.definitions.DM_ARDamage = {
+		category = "feature",
+		name_id = "menu_player_assault_rifle_damage_multiplier",
+		upgrade = {
+			category = "assault_rifle",
+			upgrade = "damage_multiplier",
+			value = 4}}
+	
 	
 	
 end
