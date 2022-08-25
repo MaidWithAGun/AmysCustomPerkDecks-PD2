@@ -88,6 +88,26 @@ or string_id == "HM_DESC_PK8" and "Cops are more likely to ##target you## over y
 or string_id == "HM_NAME_PK9" and "Experienced Killer"
 or string_id == "HM_DESC_PK9" and "All weapons have their accuracy increased by ##half##."
 
+or string_id == "DM_NAME" and "Dodge Master"
+or string_id == "DM_DESC" and "The Dodge Master is an elite rogue user who knows their way around any situation. ##Apart of the community pack, this was suggested by Cloaker.## ##This perk set is apart of the Maid's Custom Perk Decks Mod.##"
+or string_id == "DM_NAME_PK1" and "Subtle"
+or string_id == "DM_DESC_PK1" and "Your chance to dodge is increased by ##30%##. ##Community Additions Pack #1 Item##"
+or string_id == "DM_NAME_PK2" and "Helmet Popping"
+or string_id == "DM_DESC_PK2" and "Increases your headshot damage by ##40%##. ##Community Additions Pack #1 Item##"
+or string_id == "DM_NAME_PK3" and "Elusive"
+or string_id == "DM_DESC_PK3" and "Enemies are far less likely to target you over your teammates. 30% less targeting when close to teammates.  ##Community Additions Pack #1 Item##"
+or string_id == "DM_NAME_PK4" and "Blending In"
+or string_id == "DM_DESC_PK4" and "5 Additional Concealment.  Job Completed XP is increased by ##half##. ##Community Additions Pack #1 Item##"
+or string_id == "DM_NAME_PK5" and "Evasive"
+or string_id == "DM_DESC_PK5" and "Your chance to dodge is now increased by an additional ##15%##, totalling to ##45%##."
+or string_id == "DM_NAME_PK6" and "Easily Pierced"
+or string_id == "DM_DESC_PK6" and "Your armor is ##disabled##."
+or string_id == "DM_NAME_PK7" and "Shadow Warrior"
+or string_id == "DM_DESC_PK7" and "Your chance to dodge is now increased by an additional ##5%##, totalling to ##50%##."
+or string_id == "DM_NAME_PK8" and "Fast and Furious"
+or string_id == "DM_DESC_PK8" and "You do ##10%## more damage with all of your guns (Explosives do not apply). Interaction Speed increased by ##10%##.  ##Community Additions Pack #1 Item##"
+or string_id == "DM_NAME_PK9" and "Killer Instinct"
+or string_id == "DM_DESC_PK9" and "All weapons now have a ##15% chance to pierce body armor##. Weapon switch/reload speed increased by ##80%##.  ##Community Additions Pack #1 Item##"
 
 or text_original(self, string_id, ...)
 end
